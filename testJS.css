@@ -1,0 +1,317 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-cont {
+    background-color: rgb(50, 0, 0);
+}
+
+.main-cont__title {
+    font-size: 3rem;
+    font-family: 'Bangers', cursive;
+    color: white;
+    text-align: center;
+}
+
+.main-cont__title_wrap {
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-cont__form-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.main-cont__form_wrap {
+    padding-top: 1rem;
+}
+
+.main-cont__new-product-form {
+    width: 22%;
+    height: 100%;
+}
+
+.main-cont__new-product-form_back {
+    background-color: rgb(155, 15, 15);
+}
+
+.main-cont__sort-form {
+    width: 23%;
+    height: 100%;
+}
+
+.main-cont__sort-form_back {
+    background-color: rgb(155, 15, 15);
+}
+
+.main-cont__card-form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-cont__card-form_back {
+    background-color: rgb(155, 15, 15);
+}
+
+.form__options-form {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 0.7rem;
+    margin-bottom: 1rem;
+    border: solid black 3px;
+}
+
+.form__options-form_title {
+    font-size: 1.5rem;
+    font-family: 'Bangers', cursive;
+    margin-left: 0.7rem;
+}
+
+.options-form__input-wrapper {
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+}
+
+.options-form__label-font {
+    font-size: 1.5rem;
+    font-family: 'Bangers', cursive;
+}
+
+.label__input-style {
+    font-size: 1.5rem;
+    font-family: 'Kirang Haerang', cursive;
+    background-color: rgb(245, 165, 40);
+}
+
+.label__input-style_wrap {
+    margin-right: 0.7rem;
+}
+
+.options-form___description-area-title {
+    font-size: 1.5rem;
+    font-family: 'Bangers', cursive;
+}
+
+.options-form___description-area-title_wrap {
+    margin-top: 0.7rem;
+    margin-bottom: 0.1rem;
+    margin-left: 0.7rem;
+}
+
+.options-form___description-area {
+    width: 16.3rem;
+    height: 8rem;
+    resize: none;
+    font-size: 1.2rem;
+    font-family: 'Kirang Haerang', cursive;
+    background-color: rgb(245, 165, 40);
+}
+
+.options-form___description-area_wrap {
+    margin-left: 0.7rem;
+}
+
+.form__submit-button {
+    width: 10rem;
+    font-size: 2rem;
+    font-family: 'Bangers', cursive;
+    border: none;
+    background: none;
+}
+
+.form__submit-button:hover {
+    color: rgb(245, 165, 40);
+}
+
+.form__submit-button_wrap {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.options-form___warning {
+    font-size: 1rem;
+    font-family: 'Kirang Haerang', cursive;
+    color: grey;
+    display: none;
+}
+
+.options-form___warning_wrap {
+    margin-left: 0.7rem;
+}
+
+.form__card {
+    width: 15rem;
+    height: 100%;
+    border: solid black 0.2rem;
+}
+
+.form__card_wrap {
+    margin-bottom: 1rem;
+}
+
+.card__frame {
+    width: 13.5rem;
+    height: 10rem;
+    border: solid black 0.2rem;
+}
+
+.card__frame-for-cheap {
+    width: 13.5rem;
+    height: 10rem;
+    border: solid rgb(95, 95, 95) 0.2rem;
+}
+
+.card__frame-for-optimal {
+    width: 13.5rem;
+    height: 10rem;
+    border: solid rgb(0, 160, 60) 0.2rem;
+}
+
+.card__frame-for-premium {
+    width: 13.5rem;
+    height: 10rem;
+    border: solid rgb(240, 180, 80) 0.2rem;
+}
+
+.card__frame_wrap {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+}
+
+.card__name {
+    font-size: 1.5rem;
+    font-family: 'Bangers', cursive;
+}
+
+.card__name_wrap {
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.card__description {
+    font-size: 1.3rem;
+    font-family: 'Bangers', cursive;
+}
+
+.card__description_wrap {
+    margin-left: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.card-edit__input-wrapper {
+    margin-top: 0.7rem;
+    margin-bottom: 0.6rem;
+    text-align: center;
+}
+
+.card-edit__input-picture-wrapper {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.card-edit__input-edit-style {
+    font-size: 1rem;
+    font-family: 'Kirang Haerang', cursive;
+    background-color: rgb(245, 165, 40);
+}
+
+.card-edit__input-edit-style_wrap {
+    width: 5rem;
+    margin-left: 0.3rem;
+}
+
+.card-edit__description {
+    display: flex;
+    font-size: 1.3rem;
+    font-family: 'Bangers', cursive;
+}
+
+.card-edit__description_wrap {
+    margin-top: 0.1rem;
+    margin-left: 0.5rem;
+}
+
+.card-edit__description_date-wrap {
+    margin-top: 0.15rem;
+    margin-left: 0.5rem;
+}
+
+.card-edit-buttons__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-edit-buttons__description_wrap {
+    margin-bottom: 0.05rem;
+}
+
+.card__box_wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.box__hidden-inform {
+    font-size: 1.2rem;
+    font-family: 'Bangers', cursive;
+    color: grey;
+}
+
+.box__hidden-inform_wrap {
+    margin-left: 1rem;
+}
+
+.card__hidden-desc {
+    width: 9rem;
+    font-size: 1.2rem;
+    font-family: 'Bangers', cursive;
+    color: grey;
+    border: none;
+    background: none;
+}
+
+.card__hidden-desc_wrap {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+
+.card__hidden-text {
+    font-size: 1rem;
+    font-family: 'Kirang Haerang', cursive;
+    color: grey;
+    display: none;
+}
+
+.card__hidden-text_wrap {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.card__edit-button {
+    width: 5rem;
+    font-size: 1rem;
+    font-family: 'Bangers', cursive;
+    border: none;
+    background: none;
+}
+
+.card__edit-button:hover {
+    color: rgb(250, 165, 0);
+}
+
+.card__edit-button_wrap {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
